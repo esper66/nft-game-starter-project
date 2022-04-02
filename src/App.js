@@ -62,6 +62,7 @@ const App = () => {
     } catch (error) {
       console.log(error);
     }
+    setIsLoading(false);
   };
   const renderContent = () => {
     if (isLoading) {
