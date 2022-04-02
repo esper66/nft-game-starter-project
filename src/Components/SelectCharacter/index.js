@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import './SelectCharacter.css';
 import { ethers } from 'ethers';
 import { CONTRACT_ADDRESS, transformCharacterData } from '../../constants';
-import myEpicGame from '../../utils/MyEpicGame.json';
+import myEpicGame from '../../utils/abi.json';
 // setCharacterNFTについては、あとで詳しく説明します。
 import LoadingIndicator from '../../Components/LoadingIndicator';
 
